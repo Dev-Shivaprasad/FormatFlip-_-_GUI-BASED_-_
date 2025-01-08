@@ -14,5 +14,4 @@ The script automates the process of converting RAW images to Desired format. It 
 3.	Set the Output_directory to store the converted images
 4.	Select the raw file format [.DNG, .NEF, .CR2, .CR3, .ARW, .ORF, .RW2, .PEF].
 5.	Select the output file format [.PNG, .JPEG, .ICO]. 
-6.	Press Start process
-
+6.	Press Start process  
