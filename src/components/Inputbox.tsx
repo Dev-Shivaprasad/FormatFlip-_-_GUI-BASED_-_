@@ -8,11 +8,13 @@ type Props = {
   LabelText?: string;
   value: string;
   setValue: React.Dispatch<React.SetStateAction<string>>;
+  imageinreq?: boolean;
 };
 
 export default function Inputbox({
   htmlFor,
   LabelText = "Path",
+  imageinreq = true,
   setValue,
   value,
 }: Props) {
@@ -30,7 +32,11 @@ export default function Inputbox({
         />
         <div className="flex mx-5 space-x-5 justify-around items-center">
           <Pickdirorfile Setvalue={setValue} />
-          <Pickdirorfile Setvalue={setValue} file={true} />
+          {imageinreq ? (
+            <Pickdirorfile Setvalue={setValue} file={true} />
+          ) : (
+            <div className="h-2 w-2 m-5"/>
+          )}
           <motion.div
             initial={{ scale: 1 }}
             whileHover={{ scale: 1.1 }}

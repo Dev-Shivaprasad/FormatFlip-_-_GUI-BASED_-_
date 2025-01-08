@@ -38,15 +38,9 @@ export default function App() {
     ".BMP",
     ".TIFF",
     ".WEBP",
-    ".HEIF",
-    ".HEIC",
-    ".RAW",
-    ".SVG",
     ".ICO",
     ".EPS",
     ".PDF",
-    ".PSD",
-    ".AI",
   ];
   const [Totalthreads, setTotalthreads] = useState<number>(4);
   useEffect(() => {
@@ -79,6 +73,7 @@ export default function App() {
 
       <Inputbox
         htmlFor="OutputFolder"
+        imageinreq={false}
         LabelText="OUTPUT FOLDER PATH"
         setValue={setOutput}
         value={Output}
