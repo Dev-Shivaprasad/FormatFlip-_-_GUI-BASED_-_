@@ -7,6 +7,8 @@
 
 ### Demo
 
+### You can download the binary from [here]([here](https://github.com/Dev-Shivaprasad/FormatFlip-_-_GUI-BASED_-_/releases/tag/v1.0.0))
+
 The script automates the process of converting RAW images to Desired format. It takes an input directory containing RAW images, processes each image parallelly, and saves the resulting images in an output directory.
 
 1.	Install the FormatFlip.exe and open it
